@@ -47,7 +47,7 @@ variable "end_ip_address" {
 
 variable "tags" {
   description = "The tags to associate with your network and subnets."
-  type        = "map"
+  type        = map
 
   default = {
     tag1 = ""
